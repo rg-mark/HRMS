@@ -1,0 +1,50 @@
+.navigationMenu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigationMenuList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigationMenuItem {
+    margin-right: 1rem;
+  }
+  
+  .navigationMenuTrigger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .navigationMenuContent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .navigationMenuItem:hover .navigationMenuContent {
+    display: block;
+  }
+  
+  .navigationMenuLink {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navigationMenuIndicator {
+    height: 2px;
+    background-color: blue;
+  }
+  
+  .navigationMenuViewport {
+    display: none;
+  }
